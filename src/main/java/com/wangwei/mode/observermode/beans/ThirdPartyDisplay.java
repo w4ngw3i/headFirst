@@ -1,25 +1,22 @@
-package com.wangwei.observermode.beans;
+package com.wangwei.mode.observermode.beans;
 
 /**
  * @author: wangwei
- * @date: 2019-07-29 00:40
+ * @date: 2019-07-29 00:51
  */
-public class CurrentConditionsDisplay implements Observer, DisplayElement {
-
+public class ThirdPartyDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
     private Subject weatherData;
 
-    public CurrentConditionsDisplay(Subject weatherData) {
+    public ThirdPartyDisplay(Subject weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }
 
     @Override
     public void display() {
-
         System.out.println("Current conditions: " + temperature + "F degress and " + humidity + "% humidity");
-
     }
 
     @Override

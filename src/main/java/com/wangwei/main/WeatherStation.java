@@ -1,9 +1,9 @@
 package com.wangwei.main;
 
-import com.wangwei.observermode.beans.CurrentConditionsDisplay;
-import com.wangwei.observermode.beans.ForecastDisplay;
-import com.wangwei.observermode.beans.StatisticsDisplay;
-import com.wangwei.observermode.beans.WeatherData;
+import com.wangwei.mode.observermode.beans.CurrentConditionsDisplay;
+import com.wangwei.mode.observermode.beans.ForecastDisplay;
+import com.wangwei.mode.observermode.beans.StatisticsDisplay;
+import com.wangwei.mode.observermode.beans.WeatherData;
 
 /**
  * @author: wangwei
@@ -22,5 +22,6 @@ public class WeatherStation {
         weatherData.setMeasurements(80, 65, 30.4f);
         weatherData.setMeasurements(82, 70, 29.2f);
         weatherData.setMeasurements(78, 90, 29.2f);
+
     }
 }

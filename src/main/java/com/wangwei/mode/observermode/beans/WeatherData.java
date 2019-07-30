@@ -1,4 +1,4 @@
-package com.wangwei.observermode.beans;
+package com.wangwei.mode.observermode.beans;
 
 import java.util.ArrayList;
 
@@ -35,13 +35,13 @@ public class WeatherData implements Subject {
 
     @Override
     public void notifyObservers() {
-        for (int i = 0; i < observers.size(); i++) {
-            Observer observer = (Observer) observers.get(i);
+        for (Object o : observers) {
+            Observer observer = (Observer) o;
             observer.update(temperature, humidity, pressure);
         }
     }
 
-    public void measurementsChanged(){
+    private void measurementsChanged(){
         notifyObservers();
     }
 

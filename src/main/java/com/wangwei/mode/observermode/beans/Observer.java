@@ -1,4 +1,4 @@
-package com.wangwei.observermode.beans;
+package com.wangwei.mode.observermode.beans;
 
 /**
  * @author: wangwei

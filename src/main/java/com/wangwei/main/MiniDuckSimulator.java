@@ -1,8 +1,8 @@
 package com.wangwei.main;
 
-import com.wangwei.composition.beans.fly.FlyRocketPowered;
-import com.wangwei.composition.beans.MallardDuck;
-import com.wangwei.composition.beans.ModelDuck;
+import com.wangwei.mode.strategy.beans.fly.FlyRocketPowered;
+import com.wangwei.mode.strategy.beans.MallardDuck;
+import com.wangwei.mode.strategy.beans.ModelDuck;
 
 /**
  * @author: wangwei

@@ -1,4 +1,4 @@
-package com.wangwei.composition.beans.quack;
+package com.wangwei.mode.strategy.beans.quack;
 
 /**
  * @author: wangwei

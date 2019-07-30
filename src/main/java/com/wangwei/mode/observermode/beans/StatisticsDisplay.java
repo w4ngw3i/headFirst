@@ -1,16 +1,15 @@
-package com.wangwei.observermode.beans;
+package com.wangwei.mode.observermode.beans;
 
 /**
  * @author: wangwei
- * @date: 2019-07-29 00:47
+ * @date: 2019-07-29 00:50
  */
-public class ForecastDisplay implements Observer, DisplayElement {
-
+public class StatisticsDisplay implements Observer, DisplayElement {
     private float temperature;
     private float humidity;
     private Subject weatherData;
 
-    public ForecastDisplay(Subject weatherData) {
+    public StatisticsDisplay(Subject weatherData) {
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
     }

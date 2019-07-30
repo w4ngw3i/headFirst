@@ -1,7 +1,7 @@
-package com.wangwei.composition.beans;
+package com.wangwei.mode.strategy.beans;
 
-import com.wangwei.composition.beans.fly.FlyBehavior;
-import com.wangwei.composition.beans.quack.QuackBehavior;
+import com.wangwei.mode.strategy.beans.fly.FlyBehavior;
+import com.wangwei.mode.strategy.beans.quack.QuackBehavior;
 
 /**
  * @author: wangwei

@@ -1,4 +1,4 @@
-package com.wangwei.composition.beans.fly;
+package com.wangwei.mode.strategy.beans.fly;
 
 /**
  * @author: wangwei

@@ -1,7 +1,7 @@
-package com.wangwei.composition.beans;
+package com.wangwei.mode.strategy.beans;
 
-import com.wangwei.composition.beans.fly.FlyNoWay;
-import com.wangwei.composition.beans.quack.Quack;
+import com.wangwei.mode.strategy.beans.fly.FlyNoWay;
+import com.wangwei.mode.strategy.beans.quack.Quack;
 
 /**
  * @author: wangwei

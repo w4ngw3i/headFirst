@@ -1,6 +1,4 @@
-package com.wangwei.composition.beans.quack;
-
-import com.wangwei.composition.beans.quack.QuackBehavior;
+package com.wangwei.mode.strategy.beans.quack;
 
 /**
  * @author: wangwei
